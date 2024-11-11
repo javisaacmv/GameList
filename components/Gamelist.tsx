@@ -316,7 +316,7 @@ const GameList = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto mt-10 p-4 bg-gray-900 rounded-lg shadow-lg">
+    <div className="w-full max-w-full mx-auto mt-10 p-4 bg-gray-900 rounded-lg shadow-lg">
       <h2 className="text-3xl font-bold text-center text-teal-400 mb-6">
         Lista de Videojuegos Pendientes
       </h2>
