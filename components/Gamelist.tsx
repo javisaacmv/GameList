@@ -316,7 +316,7 @@ const GameList = () => {
   };
 
   return (
-    <div className="w-4/5 mx-auto mt-10 p-4 bg-gray-900 rounded-lg shadow-lg">
+    <div className="max-w-4xl mx-auto mt-10 p-4 bg-gray-900 rounded-lg shadow-lg">
       <h2 className="text-3xl font-bold text-center text-teal-400 mb-6">
         Lista de Videojuegos Pendientes
       </h2>
@@ -324,67 +324,69 @@ const GameList = () => {
         type="file"
         accept=".json"
         onChange={handleFileUpload}
-        className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700 my-3"
+        className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white hover:file:bg-blue-700 mb-4"
       />
-      <table className="min-w-full bg-gray-800 border border-gray-700 rounded-lg">
-        <thead>
-          <tr>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              #
-            </th>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              Juego
-            </th>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              Duración Total
-            </th>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              Duración Restante
-            </th>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              Tiempo Restante
-            </th>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              Fecha de Finalización
-            </th>
-            <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600">
-              Acciones
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          {games.map((game) => (
-            <tr key={game.id} className="hover:bg-gray-700">
-              <td className="py-2 px-4 border border-gray-600 text-center text-gray-300">
-                {game.id}
-              </td>
-              <td className="py-2 px-4 border border-gray-600 font-semibold text-gray-300">
-                {game.title}
-              </td>
-              <td className="py-2 px-4 border border-gray-600 text-center text-gray-300">
-                {game.totalDuration}
-              </td>
-              <td className="py-2 px-4 border border-gray-600 text-center text-gray-300">
-                {game.remaining}
-              </td>
-              <td className="py-2 px-4 border border-gray-600 text-center text-gray-300">
-                {game.timeEstimate}
-              </td>
-              <td className="py-2 px-4 border border-gray-600 text-center text-gray-300">
-                {game.completionDate}
-              </td>
-              <td className="py-2 px-4 border border-gray-600 text-center">
-                <button
-                  onClick={() => deleteGame(game.id)}
-                  className="text-red-500 hover:text-red-700 font-semibold"
-                >
-                  Eliminar
-                </button>
-              </td>
+      <div className="overflow-x-auto">
+        <table className="min-w-full bg-gray-800 border border-gray-700 rounded-lg">
+          <thead>
+            <tr>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                #
+              </th>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                Juego
+              </th>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                Duración Total
+              </th>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                Duración Restante
+              </th>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                Tiempo Restante
+              </th>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                Fecha de Finalización
+              </th>
+              <th className="py-2 px-4 bg-gray-700 text-gray-300 font-semibold border border-gray-600 whitespace-nowrap">
+                Acciones
+              </th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {games.map((game) => (
+              <tr key={game.id} className="hover:bg-gray-700">
+                <td className="py-2 px-4 border border-gray-600 text-center text-gray-300 whitespace-nowrap">
+                  {game.id}
+                </td>
+                <td className="py-2 px-4 border border-gray-600 font-semibold text-gray-300 whitespace-nowrap">
+                  {game.title}
+                </td>
+                <td className="py-2 px-4 border border-gray-600 text-center text-gray-300 whitespace-nowrap">
+                  {game.totalDuration}
+                </td>
+                <td className="py-2 px-4 border border-gray-600 text-center text-gray-300 whitespace-nowrap">
+                  {game.remaining}
+                </td>
+                <td className="py-2 px-4 border border-gray-600 text-center text-gray-300 whitespace-nowrap">
+                  {game.timeEstimate}
+                </td>
+                <td className="py-2 px-4 border border-gray-600 text-center text-gray-300 whitespace-nowrap">
+                  {game.completionDate}
+                </td>
+                <td className="py-2 px-4 border border-gray-600 text-center">
+                  <button
+                    onClick={() => deleteGame(game.id)}
+                    className="text-red-500 hover:text-red-700 font-semibold"
+                  >
+                    Eliminar
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
