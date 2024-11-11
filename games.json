@@ -1,0 +1,234 @@
+[
+    {
+      "id": 1,
+      "title": "DLC 'Futuros Redimidos' de Xenoblade Chronicles 3",
+      "totalDuration": "25 horas",
+      "remaining": "25 horas",
+      "timeEstimate": "1 semana",
+      "completionDate": "17 de noviembre de 2024"
+    },
+    {
+      "id": 2,
+      "title": "Gris",
+      "totalDuration": "4 horas",
+      "remaining": "4 horas",
+      "timeEstimate": "0.16 semanas",
+      "completionDate": "18 de noviembre de 2024"
+    },
+    {
+      "id": 3,
+      "title": "Elden Ring",
+      "totalDuration": "100 horas",
+      "remaining": "100 horas",
+      "timeEstimate": "4 semanas",
+      "completionDate": "16 de diciembre de 2024"
+    },
+    {
+      "id": 4,
+      "title": "Baldur's Gate 3",
+      "totalDuration": "80-100 horas",
+      "remaining": "80-100 horas",
+      "timeEstimate": "3.2-4 semanas",
+      "completionDate": "13 de enero de 2025"
+    },
+    {
+      "id": 5,
+      "title": "Celeste",
+      "totalDuration": "10 horas",
+      "remaining": "10 horas",
+      "timeEstimate": "0.4 semanas",
+      "completionDate": "16 de enero de 2025"
+    },
+    {
+      "id": 6,
+      "title": "Dark Souls (trilogía completa)",
+      "totalDuration": "100 horas",
+      "remaining": "100 horas",
+      "timeEstimate": "4 semanas",
+      "completionDate": "13 de febrero de 2025"
+    },
+    {
+      "id": 7,
+      "title": "Cuphead",
+      "totalDuration": "15 horas",
+      "remaining": "15 horas",
+      "timeEstimate": "0.6 semanas",
+      "completionDate": "20 de febrero de 2025"
+    },
+    {
+      "id": 8,
+      "title": "Cyberpunk 2077",
+      "totalDuration": "50 horas",
+      "remaining": "50 horas",
+      "timeEstimate": "2 semanas",
+      "completionDate": "5 de marzo de 2025"
+    },
+    {
+      "id": 9,
+      "title": "Batman Arkham Knight",
+      "totalDuration": "20 horas",
+      "remaining": "20 horas",
+      "timeEstimate": "0.8 semanas",
+      "completionDate": "12 de marzo de 2025"
+    },
+    {
+      "id": 10,
+      "title": "Dragon Quest XI",
+      "totalDuration": "55 horas",
+      "remaining": "55 horas",
+      "timeEstimate": "2.2 semanas",
+      "completionDate": "29 de marzo de 2025"
+    },
+    {
+      "id": 11,
+      "title": "Shin Megami Tensei V: Vengeance",
+      "totalDuration": "60 horas",
+      "remaining": "60 horas",
+      "timeEstimate": "2.4 semanas",
+      "completionDate": "19 de abril de 2025"
+    },
+    {
+      "id": 12,
+      "title": "Eastward",
+      "totalDuration": "30 horas",
+      "remaining": "30 horas",
+      "timeEstimate": "1.2 semanas",
+      "completionDate": "26 de abril de 2025"
+    },
+    {
+      "id": 13,
+      "title": "Metaphor ReFantazio",
+      "totalDuration": "50-60 horas",
+      "remaining": "50-60 horas",
+      "timeEstimate": "2-2.4 semanas",
+      "completionDate": "17 de mayo de 2025"
+    },
+    {
+      "id": 14,
+      "title": "Disco Elysium",
+      "totalDuration": "30 horas",
+      "remaining": "30 horas",
+      "timeEstimate": "1.2 semanas",
+      "completionDate": "24 de mayo de 2025"
+    },
+    {
+      "id": 15,
+      "title": "Resident Evil Remakes (2, 3 y 4)",
+      "totalDuration": "60 horas",
+      "remaining": "60 horas",
+      "timeEstimate": "2.4 semanas",
+      "completionDate": "7 de junio de 2025"
+    },
+    {
+      "id": 16,
+      "title": "Dragon Age Inquisition",
+      "totalDuration": "60 horas",
+      "remaining": "60 horas",
+      "timeEstimate": "2.4 semanas",
+      "completionDate": "28 de junio de 2025"
+    },
+    {
+      "id": 17,
+      "title": "Horizon Zero Dawn",
+      "totalDuration": "40 horas",
+      "remaining": "40 horas",
+      "timeEstimate": "1.6 semanas",
+      "completionDate": "12 de julio de 2025"
+    },
+    {
+      "id": 18,
+      "title": "God of War (2018)",
+      "totalDuration": "25 horas",
+      "remaining": "25 horas",
+      "timeEstimate": "1 semana",
+      "completionDate": "19 de julio de 2025"
+    },
+    {
+      "id": 19,
+      "title": "Tales of Arise",
+      "totalDuration": "40 horas",
+      "remaining": "40 horas",
+      "timeEstimate": "1.6 semanas",
+      "completionDate": "2 de agosto de 2025"
+    },
+    {
+      "id": 20,
+      "title": "Yakuza 0",
+      "totalDuration": "35 horas",
+      "remaining": "35 horas",
+      "timeEstimate": "1.4 semanas",
+      "completionDate": "9 de agosto de 2025"
+    },
+    {
+      "id": 21,
+      "title": "Yakuza Kiwami",
+      "totalDuration": "20 horas",
+      "remaining": "20 horas",
+      "timeEstimate": "0.8 semanas",
+      "completionDate": "16 de agosto de 2025"
+    },
+    {
+      "id": 22,
+      "title": "Yakuza Kiwami 2",
+      "totalDuration": "30 horas",
+      "remaining": "30 horas",
+      "timeEstimate": "1.2 semanas",
+      "completionDate": "23 de agosto de 2025"
+    },
+    {
+      "id": 23,
+      "title": "Yakuza 3",
+      "totalDuration": "15 horas",
+      "remaining": "15 horas",
+      "timeEstimate": "0.6 semanas",
+      "completionDate": "30 de agosto de 2025"
+    },
+    {
+      "id": 24,
+      "title": "Yakuza 4",
+      "totalDuration": "20 horas",
+      "remaining": "20 horas",
+      "timeEstimate": "0.8 semanas",
+      "completionDate": "6 de septiembre de 2025"
+    },
+    {
+      "id": 25,
+      "title": "Yakuza 5",
+      "totalDuration": "50 horas",
+      "remaining": "50 horas",
+      "timeEstimate": "2 semanas",
+      "completionDate": "20 de septiembre de 2025"
+    },
+    {
+      "id": 26,
+      "title": "Yakuza 6",
+      "totalDuration": "20 horas",
+      "remaining": "20 horas",
+      "timeEstimate": "0.8 semanas",
+      "completionDate": "27 de septiembre de 2025"
+    },
+    {
+      "id": 27,
+      "title": "Yakuza: Like a Dragon",
+      "totalDuration": "45 horas",
+      "remaining": "45 horas",
+      "timeEstimate": "1.8 semanas",
+      "completionDate": "11 de octubre de 2025"
+    },
+    {
+      "id": 28,
+      "title": "Like a Dragon: Ishin!",
+      "totalDuration": "30 horas",
+      "remaining": "30 horas",
+      "timeEstimate": "1.2 semanas",
+      "completionDate": "18 de octubre de 2025"
+    },
+    {
+      "id": 29,
+      "title": "Like a Dragon Gaiden: The Man Who Erased His Name",
+      "totalDuration": "15 horas",
+      "remaining": "15 horas",
+      "timeEstimate": "0.6 semanas",
+      "completionDate": "25 de octubre de 2025"
+    }
+  ]
